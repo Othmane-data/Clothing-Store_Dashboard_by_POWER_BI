@@ -1,6 +1,6 @@
 # Clothing-Store_Dashboard_by_POWER_BI
 
-![](-)
+![](https://github.com/Othmane-data/Clothing-Store_Dashboard_by_POWER_BI/blob/main/MY-OTH-DATA.pbix)
 ---
 ## Introduction
 
@@ -26,16 +26,53 @@ My final [dashboard](OTH-DATA.pdf)
 - 📉 Charts and Visualization
 - ❎ Conclusion and Recommendations
 
-### 🧮 Data Cleaning and Data Processing :
+### 🧮 Data Cleaning and Dax :
 
-- Age group,Mounth;
+- Total sales ;
 ```
-- Age group=IF(E2>=50,"Senior",
-        IF(E2>=30,"Adult","Teenager"))
-  
-- Mounth=TEXT(G2,"mmm")
+Total Sales =
+
+SUM
+('BlinkIT Grocery Data (2)'[Sales])
 ```
 
+
+- AVG Sales ;
+```
+Avg Sales =
+
+AVERAGE
+('BlinkIT Grocery Data (2)'[Sales])
+```
+
+- AVG Rating ;
+```
+Avg Rating =
+
+AVERAGE
+('BlinkIT Grocery Data (2)'[Rating])
+```
+
+- No of Items ;
+```
+No of Items =
+
+COUNTROWS
+('BlinkIT Grocery Data (2)')
+```
+
+- Metrics ;
+```dax
+METRICS =
+
+{
+    ("Total Sales", NAMEOF('BlinkIT Grocery Data (2)'[Total Sales]), 0),
+    ("Avg Sales", NAMEOF('BlinkIT Grocery Data (2)'[Avg Sales]), 1),
+    ("No of Items", NAMEOF('BlinkIT Grocery Data (2)'[No of Items]), 2),
+    ("Avg Rating", NAMEOF('BlinkIT Grocery Data (2)'[Avg Rating]), 3)
+}
+
+```
 ### 📉 Charts and Visualization :
 
 The report comprises 6 charts:
