@@ -75,6 +75,13 @@ METRICS =
 ```
 ### 📉 Charts and Visualization :
 
+KPI's Requirements
+1.	Total Sales: The overall revenue generated from all items sold.
+2.	Average Sales: The average revenue per sale.
+3.	Number of Items: The total count of different items sold.
+4.	Average Rating: The average customer rating for items sold.
+
+
 The report comprises 7 charts:
 
 ___1. Total Sales by Fat Content;___
@@ -94,35 +101,58 @@ ___7. All Metrics by Outlet Type;___
 
  the all dashboard ![](OTH-DATA.pdf)
 
+___KPI's Requirements___
 
+![](kpi's.PNG)
 
 ___1. Total Sales by Fat Content;___
 
+![](fat-content.PNG)
 
+___Objective:__ Analyze the impact of fat content on total sales.
+__Additional KPI Metrics:__ Assess how other KPIs (Average Sales, Number of Items, Average Rating) vary with fat content.
+🤓_
 
 ___2. Total Sales by Item Type;___
 
 
+![](item-type.PNG)
+
+___Objective:__ Identify the performance of different item types in terms of total sales.
+__Additional KPI Metrics:__ Assess how other KPIs (Average Sales, Number of Items, Average Rating) vary with item type.
+🤓_
 
 ___3. Fat Content by Outlet for Total Sales;___
 
+![](fat-by-outlet.PNG)
 
+___Objective:__ Compare total sales across different outlets segmented by fat content.
+__Additional KPI Metrics:__ Assess how other KPIs (Average Sales, Number of Items, Average Rating) vary with fat content.
+🤓_
 
 ___4. Total Sales by Outlet Establishment;___
 
+![](outlet-establishement.PNG)
 
+___Objective:__ Evaluate how the age or type of outlet establishment influences total sales.🤓_
 
 ___5. Sales by Outlet Size;___
 
+![](outlet-size.PNG)
 
+___Objective:__ Analyze the correlation between outlet size and total sales. 🤓_
 
 ___6. Sales by Outlet Location;___
 
+![](outlet-location.PNG)
 
+___Objective:__ Assess the geographic distribution of sales across different locations. 🤓_
 
 ___7. All Metrics by Outlet Type;___
 
+![](outlet-type.PNG)
 
+___objective:__ Provide a comprehensive view ot all key metrics ( total sales, Average Sales, Number ot Items, Average Hating) broken down by different outlet types. 🤓_
 
 
 ### ❎ Conclusion and Recommendations:
