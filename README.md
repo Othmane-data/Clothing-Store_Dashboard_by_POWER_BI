@@ -99,7 +99,7 @@ ___6. Sales by Outlet Location;___
 ___7. All Metrics by Outlet Type;___
 
 
- the all dashboard ![](OTH-DATA.pdf)
+ the all dashboard ![](the-all-dash.PNG)
 
 ___KPI's Requirements___
 
@@ -157,5 +157,5 @@ ___objective:__ Provide a comprehensive view ot all key metrics ( total sales, A
 
 ### ❎ Conclusion and Recommendations:
 
-Target __Women__ customers of age group __30-49__ yrs living in ___MAHARASHTRA,KARNATAKA and UTTAR PRADESH___ by showing ads/offers/coupons available on ___Amazon,Flipkart and Myntra___. 😄
+______
 
