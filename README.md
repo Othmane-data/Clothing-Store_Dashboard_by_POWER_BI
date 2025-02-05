@@ -62,7 +62,7 @@ COUNTROWS
 ```
 
 - Metrics ;
-```dax
+```sql
 METRICS =
 
 {
