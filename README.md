@@ -29,7 +29,7 @@ My final [dashboard](OTH-DATA.pdf)
 ### 🧮 Data Cleaning and Dax :
 
 - Total sales ;
-```
+```sql
 Total Sales =
 
 SUM
@@ -38,7 +38,7 @@ SUM
 
 
 - AVG Sales ;
-```
+```sql
 Avg Sales =
 
 AVERAGE
@@ -46,7 +46,7 @@ AVERAGE
 ```
 
 - AVG Rating ;
-```
+```sql
 Avg Rating =
 
 AVERAGE
@@ -54,7 +54,7 @@ AVERAGE
 ```
 
 - No of Items ;
-```
+```sql
 No of Items =
 
 COUNTROWS
@@ -75,64 +75,55 @@ METRICS =
 ```
 ### 📉 Charts and Visualization :
 
-The report comprises 6 charts:
+The report comprises 7 charts:
 
-___1. Orders vs Sales;___
+___1. Total Sales by Fat Content;___
 
-___2. Sales : Men vs Women;___
+___2. Total Sales by Item Type;___
 
-___3. Orders Status;___
+___3. Fat Content by Outlet for Total Sales;___
 
-___4. Sales : Top 5 States;___
+___4. Total Sales by Outlet Establishment;___
 
-___5. Relation between age and gender;___
+___5. Sales by Outlet Size;___
 
-___6. Orders : Channels.___
+___6. Sales by Outlet Location;___
 
-we're use the pivot table for every shart
+___7. All Metrics by Outlet Type;___
 
-__- Features:__
-- Order Date by Mounth Timeline;
-- Channel Slicer;
-- Category Slicer.
 
- the all dashboard ![](-)
+ the all dashboard ![](OTH-DATA.pdf)
 
-___1. Orders vs Sales;___
 
-![](-)
 
-_March, January and February are the months which marked the top sales with ___1.92 M,1.88 M and 1.82 M___ sum of amount and ___2819,2750 and 2720___ orders. 🤓_
+___1. Total Sales by Fat Content;___
 
-___2. Sales : Men vs Women;___
 
-![](-)
 
-_Women are more likely to buy compared to men with 65% . 🤓_
+___2. Total Sales by Item Type;___
 
-___3. Orders Status;___
 
-![](-)
 
-_this store deliver in 2022 more than ___28641___ orders . 🤓_
+___3. Fat Content by Outlet for Total Sales;___
 
-___4. Sales : Top 5 States;___
 
-![](-)
 
-_MAHARASHTRA,KARNATAKA and UTTAR PRADESH are the top 3 states with 69,54 % . 🤓_
+___4. Total Sales by Outlet Establishment;___
 
-___5. Relation between age and gender;___
 
-![](-)
 
-_Adult age group (30-49 yrs) is max contributing 50 %  . 🤓_
+___5. Sales by Outlet Size;___
 
-___6. Orders : Channels.___
 
-![](-)
 
-_Amazon,Flipkart and Myntra channels are max contributing 80 % . 🤓_
+___6. Sales by Outlet Location;___
+
+
+
+___7. All Metrics by Outlet Type;___
+
+
+
 
 ### ❎ Conclusion and Recommendations:
 
