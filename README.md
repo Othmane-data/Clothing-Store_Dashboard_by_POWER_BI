@@ -1,6 +1,6 @@
 # Clothing-Store_Dashboard_by_POWER_BI
 
-![](https://github.com/Othmane-data/Clothing-Store_Dashboard_by_POWER_BI/blob/main/MY-OTH-DATA.pbix)
+![](cloth-photo.jpg)
 ---
 ## Introduction
 
